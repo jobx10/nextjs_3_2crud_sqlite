@@ -1,10 +1,9 @@
-//
-module.exports = {
-  env: {
-    output: "export",  // <=== enables static exports
-    basePath: "/nextjs_3_2crud_sqlite",
-    CSRF_SECRET : 'secret1234',
-    reactStrictMode: true,
-   
-  },
-}
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  basePath: "/2048-in-react",
+  output: "export",
+  reactStrictMode: true,
+};
+
+module.exports = nextConfig;
