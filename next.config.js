@@ -1,7 +1,7 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/2048-in-react",
+  basePath: "/nextjs_3_2crud_sqlite",
   output: "export",
   reactStrictMode: true,
 };
